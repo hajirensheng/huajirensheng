@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>感谢老板</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f8f8f8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+        .code-wrap {
+            max-width: 450px;
+            width: 100%;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+            background: #fff;
+        }
+        .reward-img {
+            width: 100%;
+            display: block;
+        }
+        .desc {
+            margin-top: 22px;
+            font-size: 19px;
+            color: #222;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="code-wrap">
+        <!-- 你的图片外链直接写入 -->
+        <img class="reward-img" src="http://wpan.cdndns.site/down/3c4dc880022769756ac1c359c0d84aa6" alt="PY-滑稽人生 赞赏码">
+    </div>
+    <p class="desc">感谢老板打赏支持</p>
+
+    <script>
+        // 页面加载完成自动滚动居中图片
+        window.onload = function(){
+            document.querySelector('.reward-img').scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+        }
+    </script>
+</body>
+</html>
